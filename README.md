@@ -20,12 +20,12 @@ The front-end application is the user interface that users interact with to send
 - Back-end server:
 The back-end server is the core of the Slack-like system. It is responsible for handling user authentication, message delivery, and other core functionalities. The back-end server typically includes several components, such as:
 
--- Authentication and authorization: The back-end server authenticates users and manages access control to channels and conversations.
--- Message broker: The message broker is responsible for routing messages between clients. It manages message queues and ensures that messages are delivered in the correct order.
--- Presence service: The presence service tracks the online status of users and their availability for messaging.
--- API: The API exposes the functionality of the back-end server to the front-end application, allowing users to send and receive messages and perform other actions.
+ - Authentication and authorization: The back-end server authenticates users and manages access control to channels and conversations.
+ - Message broker: The message broker is responsible for routing messages between clients. It manages message queues and ensures that messages are delivered in the correct order.
+ - Presence service: The presence service tracks the online status of users and their availability for messaging.
+ - API: The API exposes the functionality of the back-end server to the front-end application, allowing users to send and receive messages and perform other actions.
 - Database:
 The database stores user information, channel data, and message history. The database is typically divided into several tables, such as:
--- User table: The user table stores user account information, including user names, email addresses, and password hashes.
--- Channel table: The channel table stores information about channels, including their names and descriptions.
--- Message table: The message table stores the message history of each channel, including the message text, sender, and timestamp.
+ - User table: The user table stores user account information, including user names, email addresses, and password hashes.
+ - Channel table: The channel table stores information about channels, including their names and descriptions.
+ - Message table: The message table stores the message history of each channel, including the message text, sender, and timestamp.
